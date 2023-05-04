@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("cake.jpg");
+  background-size: cover;
+  background-position: center center;
+  align-items: center;
+  color: aliceblue;
+
+  display: flex;
+  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10;
+}
+.countdown-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bigtext {
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+.elements {
+  text-align: center;
+}
+.elements span {
+  font-size: 1.3rem;
+}
